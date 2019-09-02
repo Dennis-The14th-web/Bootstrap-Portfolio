@@ -1,3 +1,5 @@
+
+
 body
 {
     background-color: #ebebeb;
@@ -7,22 +9,23 @@ body
 
 @media (min-width: 640px) { 
     body{
-        background-color: yellow;
+        background-color: #ebebeb;
     }
-
 }
 @media (min-width: 768px) { 
     body{
-        background-color: green;
+        background-color: #ebebeb;
     }
-
-
+ 
 }
 @media (min-width: 980px) { 
     body{
-        background-color: pink;
+        background-color: #ebebeb;
     }
+    .mainArea{
+        width: 768px;
 
+    }
 
 }
 
@@ -43,6 +46,7 @@ body
     width: 200px;
 }
 
+
 h4
 {
     color: #ffffff;
@@ -52,15 +56,34 @@ h4
 
 ul
 {
-    position: relative;
-    right: 150px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    display:inline;
+}
+
+li a {
+    
+    color: #777777;
+    font-size: 15px;
+    
+}
+
+
+.nav-item
+{
+    border-right: 1px solid #ebebeb;    
 }
 
 .mainArea
 {
     background-color: #ffffff;
     padding: 50px;
-    margin: 40px 0px 250px 0px;
+    margin-top: 40px;
 }
 
 h5
@@ -76,37 +99,41 @@ hr{
 
 }
 
-.image
-{
-    color: #ffffff;
-    text-align: center;
-    font-size: 15px;
-}
-
 #HEADSHOT
     {
        float: left; 
        margin-right: 25px;
        margin-bottom: 25px;
-    }
+}
 
-
-.img
-{
-    position: relative;
-    top: -78%;
-    left: 50%;
-    transform: translate(-50%, -130%);
+.img-responsive{
+    position:relative;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+.img-title{
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    left: 0;
+    right: 0;
+    bottom: 10%;
     background-color: #4eeee5;
     width: 100%;
     height: 40px;
-    clear: both;
+  }
 
-}
 
 p
 {
     line-height: 40px;
+}
+
+.btn
+{
+    background-color: #4eeee5;
 }
 
 
@@ -123,6 +150,7 @@ p
     overflow: auto;
  }
 
+ 
 
 
 
