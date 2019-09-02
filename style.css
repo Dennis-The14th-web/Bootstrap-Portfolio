@@ -7,25 +7,84 @@ body
     color: #777777;
 }
 
-@media (min-width: 640px) { 
+@media screen and (min-width: 478px) { 
+    body{
+        background-color:#ebebeb;
+    }
+  
+   nav ul{
+       list-style: none;
+       margin-top: 10px;
+       padding: 0;
+   }
+   nav ul li {
+       margin-left: 10px;
+       margin-right: 10px;
+       padding: 5px;
+       width: 15%;
+   }
+    .navbar-brand {
+       width: 450px;
+   }
+    #HEADSHOT{
+       width: 400px;
+   }
+     
+}
+
+@media screen and (min-width: 640px) { 
     body{
         background-color: #ebebeb;
     }
+    nav ul{
+        list-style: none;
+        margin-top: 10px;
+        padding: 0;
+    }
+    nav ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 5px;
+        width: 15%;
+    }
+.navbar-brand {
+            width: 500px;
+        }
+#HEADSHOT{
+            width: 400px;
+        }
+        
+   
 }
-@media (min-width: 768px) { 
+
+
+@media screen and (min-width: 768px) { 
     body{
         background-color: #ebebeb;
     }
- 
+    .navbar-brand {
+        width: 200px;
+    }
+    #HEADSHOT{
+        width: 250px;
+    }
+    
 }
-@media (min-width: 980px) { 
+@media screen and (min-width: 980px) { 
     body{
         background-color: #ebebeb;
     }
     .mainArea{
         width: 768px;
-
     }
+    .navbar-brand {
+        width: 200px;
+    }
+    #HEADSHOT{
+        width: 250px;
+    }
+    
+   
 
 }
 
@@ -43,7 +102,7 @@ body
     padding: 10px;
     position: relative;
     bottom: -8px;
-    width: 200px;
+
 }
 
 
@@ -74,10 +133,7 @@ li a {
 }
 
 
-.nav-item
-{
-    border-right: 1px solid #ebebeb;    
-}
+
 
 .mainArea
 {
@@ -100,8 +156,9 @@ hr{
 }
 
 #HEADSHOT
-    {
+{
        float: left; 
+       margin-top: 15px;
        margin-right: 25px;
        margin-bottom: 25px;
 }
@@ -136,8 +193,7 @@ p
     background-color: #4eeee5;
 }
 
-
-#footer
+.footer
 {
     background-color: #666666;
     border-top: 8px solid #4eeee5;
@@ -149,10 +205,3 @@ p
     bottom: -90px;
     overflow: auto;
  }
-
- 
-
-
-
-
-
