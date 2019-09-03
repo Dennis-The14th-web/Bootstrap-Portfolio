@@ -7,6 +7,31 @@ body
     color: #777777;
 }
 
+@media screen and (min-width: 178px) { 
+    body{
+        background-color:#ebebeb;
+    }
+  
+   nav ul{
+       list-style: none;
+       margin-top: 10px;
+       padding: 0;
+   }
+   nav ul li {
+       margin-left: 10px;
+       margin-right: 10px;
+       padding: 5px;
+       width: 15%;
+   }
+    .navbar-brand {
+       width: 450px;
+   }
+    #HEADSHOT{
+       width: 400px;
+   }
+     
+}
+
 @media screen and (min-width: 478px) { 
     body{
         background-color:#ebebeb;
@@ -48,7 +73,7 @@ body
         width: 15%;
     }
 .navbar-brand {
-            width: 500px;
+            width: 535px;
         }
 #HEADSHOT{
             width: 400px;
