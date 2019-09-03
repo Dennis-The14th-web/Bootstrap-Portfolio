@@ -7,11 +7,13 @@ body
     color: #777777;
 }
 
-@media screen and (min-width: 178px) { 
+@media screen and (min-width: 378px) { 
     body{
         background-color:#ebebeb;
     }
-  
+   nav{
+       width: 100%;
+   }
    nav ul{
        list-style: none;
        margin-top: 10px;
@@ -21,10 +23,10 @@ body
        margin-left: 10px;
        margin-right: 10px;
        padding: 5px;
-       width: 10%;
+       width: 25%;
    }
     .navbar-brand {
-       width: 400px;
+       width: 380px;
    }
     #HEADSHOT{
        width: 400px;
@@ -36,7 +38,9 @@ body
     body{
         background-color:#ebebeb;
     }
-  
+    nav{
+        width: 100%;
+    }
    nav ul{
        list-style: none;
        margin-top: 10px;
@@ -60,6 +64,9 @@ body
 @media screen and (min-width: 640px) { 
     body{
         background-color: #ebebeb;
+    }
+    nav{
+        width: 100%;
     }
     nav ul{
         list-style: none;
@@ -87,6 +94,9 @@ body
     body{
         background-color: #ebebeb;
     }
+    nav{
+        width: 100%;
+    }
     .navbar-brand {
         width: 200px;
     }
@@ -98,6 +108,9 @@ body
 @media screen and (min-width: 980px) { 
     body{
         background-color: #ebebeb;
+    }
+    nav{
+        width: 100%;
     }
     .mainArea{
         width: 768px;
