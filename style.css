@@ -18,13 +18,13 @@ body
        padding: 0;
    }
    nav ul li {
-       margin-left: 10px;
-       margin-right: 10px;
+       margin-left: 5px;
+       margin-right: 5px;
        padding: 5px;
        width: 15%;
    }
     .navbar-brand {
-       width: 450px;
+       width: 350px;
    }
     #HEADSHOT{
        width: 400px;
@@ -185,7 +185,7 @@ hr{
        float: left; 
        margin-top: 15px;
        margin-right: 25px;
-       margin-bottom: 25px;
+       margin-bottom: 5px;
 }
 
 .img-responsive{
