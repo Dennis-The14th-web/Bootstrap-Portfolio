@@ -142,7 +142,9 @@ body
     padding: 10px;
     position: relative;
     bottom: -8px;
-    border: 2px solid #4eeee5;
+    border-top: 2px solid #4eeee5;
+    border-right: 2px solid #4eeee5;
+    border-left: 2px solid #4eeee5;
 
 }
 
